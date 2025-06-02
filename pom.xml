@@ -7,6 +7,7 @@
     <groupId>de.htw_berlin.fb4.ossd.Fuerueze</groupId>
     <artifactId>my-prose-app</artifactId>
     <version>1.0.0</version>
+    <packaging>jar</packaging>
 
     <name>my-prose-app</name>
 
@@ -25,6 +26,13 @@
             </snapshots>
         </repository>
     </repositories>
+    <distributionManagement>
+<repository>
+<id>mygithub</id>
+<name>GitHub Packages</name>
+<url>https://maven.pkg.github.com/Fuerueze/Uebung_4</url>
+</repository>
+</distributionManagement>
 
     <dependencies>
         <dependency>
