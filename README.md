@@ -16,8 +16,7 @@ Dieses Java-Projekt demonstriert die Verwendung der Bibliothek **Prose-Builder**
 1. Repository klonen:
 
 ```bash
-git clone https://github.com/Fuerueze/Uebung_4
-cd Uebung_4
+git clone https://github.com/Fuerueze/my-prose-app
 cd my-prose-app
 ```
 
