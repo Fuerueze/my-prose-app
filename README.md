@@ -1,5 +1,9 @@
 # My Prose App
 
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-GPL--3.0-blue)
+![Version](https://img.shields.io/badge/version-1.0.0-orange)
+
 Dieses Java-Projekt demonstriert die Verwendung der Bibliothek **Prose-Builder**, mit der sich aus einzelnen Sätzen flüssige Prosatexte erzeugen lassen. Es enthält eine einfache Beispielimplementierung zur Registrierung und Verarbeitung von Sätzen sowie zur Ausgabe aller enthaltenen Wörter in alphabetischer Reihenfolge.
 
 ## Voraussetzungen
