@@ -15,12 +15,13 @@ Dieses Java-Projekt demonstriert die Verwendung der Bibliothek **Prose-Builder**
 git clone https://github.com/Fuerueze/Uebung_4
 cd Uebung_4
 cd my-prose-app
-
+```
 
 2. Projekt mit Maven bauen:
 
 ```bash
 mvn clean install
+```
 
 ## Ausführung
 
@@ -28,6 +29,7 @@ Das Programm kann über Maven direkt gestartet werden:
 
 ```bash
 mvn exec:java -Dexec.mainClass="de.htw_berlin.fb4.Fuerueze.my-prose-app"
+```
 
 Dabei wird ein Prosatext in der Konsole ausgegeben, basierend auf den implementierten Sätzen.
 
