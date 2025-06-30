@@ -1,0 +1,22 @@
+package com.example.myprose;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class PeerSentence implements Sentence {
+    private final String text;
+
+    public PeerSentence(String text) {
+        this.text = text;
+    }
+
+    @Override
+    public List<String> getWords() {
+        return Arrays.asList(text.split("I have some ideas."));
+    }
+
+    @Override
+    public String toString() {
+        return text;
+    }
+}
